@@ -3,8 +3,21 @@ import requests
 # Fetch the CMDB Data
 API_URL = "https://my.api.mockaroo.com/ironclad/cmdb.json?key=cf7bbbd0"
 
-response = requests.get(API_URL, timeout=10)
-print("Status code:", response.status_code)
+try:
+    response = requests.get(API_URL, timeout=10)
+    print("Status code:", response.status_code)
+
+except requests.exceptions.Timeout:
+    print("Error: Request timed out.")
+    raise SystemExit
+
+except requests.exceptions.ConnectionError:
+    print("Error: Connection error.")
+    raise SystemExit
+
+except requests.exceptions.RequestException as e:
+    print("Error: Network request failed:", e)
+    raise SystemExit
 
 # Parse JSON and Inspect Structure
 if response.status_code != 200:
@@ -12,7 +25,13 @@ if response.status_code != 200:
     print("Response preview:", response.text[:200])
     raise SystemExit
 
-data = response.json()
+try:
+    data = response.json()
+except ValueError:
+    print("Error: Invalid JSON received from the API.")
+    print("Response preview:", response.text[:200])
+    raise SystemExit
+
 print("Type of data:", type(data))
 
 if isinstance(data, list) and data:
@@ -55,7 +74,7 @@ class Asset:
         return (f"{self.hostname} ({self.asset_type}, {self.os}, {self.environment}) "
                 f"owner={self.owner_team} exposed={self.internet_exposed} "
                 f"crit={self.criticality} last_seen={self.last_seen} risk={self.risk_level()}")
-    
+
 # Convert JSON Records into Asset Objects
 assets = []
 for record in data:
@@ -84,7 +103,7 @@ print("\n=== Assets by Risk Level ===")
 for k, v in risk_counts.items():
     print(k, v)
 
-#List internet-exposed assets (hostname + owner + criticality)
+# List internet-exposed assets (hostname + owner + criticality)
 exposed = [a for a in assets if a.internet_exposed]
 
 print("\n=== Internet-Exposed Assets ===")
