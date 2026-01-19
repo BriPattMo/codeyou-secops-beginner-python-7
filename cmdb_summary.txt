@@ -1,0 +1,151 @@
+Ironclad CMDB API Audit Report
+==============================
+URL: https://my.api.mockaroo.com/ironclad/cmdb.json?key=cf7bbbd0
+Status: 200
+Total assets: 300
+
+Assets by Environment:
+- staging: 108
+- prod: 101
+- dev: 91
+
+Assets by Risk Level:
+- HIGH: 54
+- MEDIUM: 133
+- LOW: 113
+
+Internet-Exposed Assets:
+- db-3 | owner=HR | crit=low | env=staging
+- compute-33 | owner=Engineering | crit=high | env=dev
+- web-15 | owner=Engineering | crit=low | env=staging
+- web-15 | owner=HR | crit=high | env=staging
+- compute-9 | owner=Engineering | crit=medium | env=staging
+- eng-24 | owner=Executive Administration | crit=low | env=prod
+- web-16 | owner=IT | crit=low | env=prod
+- web-10 | owner=Finance | crit=low | env=dev
+- web-10 | owner=Executive Administration | crit=high | env=dev
+- finance-24 | owner=HR | crit=high | env=prod
+- web-15 | owner=Engineering | crit=high | env=staging
+- web-26 | owner=Finance | crit=medium | env=prod
+- eng-16 | owner=Executive Administration | crit=low | env=dev
+- finance-35 | owner=IT | crit=high | env=prod
+- eng-28 | owner=Security | crit=medium | env=staging
+- db-31 | owner=Engineering | crit=high | env=staging
+- web-48 | owner=IT | crit=low | env=staging
+- eng-22 | owner=HR | crit=high | env=prod
+- compute-50 | owner=Finance | crit=medium | env=staging
+- db-17 | owner=Engineering | crit=medium | env=staging
+- eng-33 | owner=Executive Administration | crit=high | env=dev
+- web-36 | owner=IT | crit=medium | env=dev
+- compute-43 | owner=Security | crit=medium | env=staging
+- compute-28 | owner=IT | crit=low | env=staging
+- web-39 | owner=Security | crit=low | env=dev
+- finance-41 | owner=Executive Administration | crit=high | env=dev
+- compute-12 | owner=Executive Administration | crit=high | env=staging
+- eng-15 | owner=Engineering | crit=low | env=staging
+- compute-14 | owner=HR | crit=low | env=dev
+- eng-32 | owner=Security | crit=high | env=staging
+- hr-33 | owner=Finance | crit=high | env=staging
+- web-47 | owner=IT | crit=low | env=staging
+- hr-25 | owner=Security | crit=medium | env=prod
+- eng-14 | owner=Executive Administration | crit=low | env=prod
+- db-12 | owner=Security | crit=high | env=staging
+- web-36 | owner=Finance | crit=high | env=prod
+- eng-48 | owner=Executive Administration | crit=high | env=prod
+- eng-17 | owner=Finance | crit=low | env=staging
+- web-16 | owner=Finance | crit=low | env=prod
+- hr-4 | owner=IT | crit=low | env=dev
+- compute-32 | owner=Engineering | crit=high | env=prod
+- web-28 | owner=Executive Administration | crit=low | env=prod
+- compute-36 | owner=Executive Administration | crit=medium | env=staging
+- web-26 | owner=Engineering | crit=high | env=dev
+- hr-26 | owner=Finance | crit=medium | env=prod
+- db-13 | owner=Security | crit=high | env=staging
+- eng-35 | owner=IT | crit=low | env=prod
+- finance-48 | owner=IT | crit=medium | env=staging
+- db-2 | owner=IT | crit=medium | env=staging
+- eng-34 | owner=IT | crit=medium | env=dev
+- hr-30 | owner=Finance | crit=low | env=prod
+- hr-34 | owner=Finance | crit=medium | env=staging
+- web-28 | owner=Executive Administration | crit=low | env=dev
+- finance-29 | owner=Finance | crit=medium | env=prod
+- hr-44 | owner=Engineering | crit=low | env=prod
+- db-46 | owner=Security | crit=medium | env=prod
+- eng-50 | owner=Executive Administration | crit=low | env=staging
+- db-50 | owner=Finance | crit=low | env=prod
+- db-41 | owner=Executive Administration | crit=high | env=prod
+- hr-49 | owner=HR | crit=high | env=staging
+- hr-26 | owner=Security | crit=high | env=prod
+- hr-4 | owner=Engineering | crit=low | env=prod
+- web-49 | owner=Finance | crit=low | env=staging
+- finance-14 | owner=IT | crit=high | env=staging
+- finance-46 | owner=Executive Administration | crit=high | env=staging
+- eng-13 | owner=Engineering | crit=low | env=dev
+- hr-16 | owner=Executive Administration | crit=high | env=dev
+- finance-33 | owner=Security | crit=high | env=staging
+- web-5 | owner=HR | crit=high | env=staging
+- compute-3 | owner=Executive Administration | crit=low | env=prod
+- hr-39 | owner=Executive Administration | crit=high | env=dev
+- finance-41 | owner=IT | crit=low | env=dev
+- eng-36 | owner=IT | crit=low | env=staging
+- web-9 | owner=Finance | crit=high | env=prod
+- finance-20 | owner=Engineering | crit=high | env=dev
+- eng-31 | owner=Engineering | crit=high | env=staging
+- compute-10 | owner=HR | crit=low | env=staging
+- web-50 | owner=IT | crit=high | env=staging
+- db-37 | owner=Security | crit=medium | env=dev
+- db-4 | owner=Engineering | crit=low | env=dev
+- db-4 | owner=Finance | crit=high | env=prod
+- db-7 | owner=Executive Administration | crit=high | env=dev
+- finance-16 | owner=Finance | crit=medium | env=prod
+- hr-37 | owner=Finance | crit=high | env=prod
+- db-11 | owner=Executive Administration | crit=medium | env=dev
+- finance-30 | owner=IT | crit=medium | env=staging
+- hr-33 | owner=IT | crit=medium | env=dev
+- db-30 | owner=Finance | crit=low | env=prod
+- compute-28 | owner=Finance | crit=low | env=staging
+- finance-28 | owner=Engineering | crit=high | env=staging
+- compute-44 | owner=Finance | crit=high | env=dev
+- finance-1 | owner=Engineering | crit=high | env=staging
+- web-9 | owner=Executive Administration | crit=low | env=prod
+- compute-3 | owner=Finance | crit=high | env=prod
+- db-23 | owner=Executive Administration | crit=high | env=dev
+- compute-45 | owner=Finance | crit=low | env=staging
+- finance-20 | owner=Finance | crit=high | env=dev
+- compute-4 | owner=Finance | crit=medium | env=prod
+- compute-5 | owner=Finance | crit=medium | env=prod
+- db-10 | owner=HR | crit=medium | env=prod
+- eng-11 | owner=IT | crit=high | env=prod
+- eng-6 | owner=Engineering | crit=low | env=dev
+- finance-6 | owner=IT | crit=low | env=dev
+- eng-22 | owner=Engineering | crit=medium | env=dev
+- compute-14 | owner=Engineering | crit=high | env=prod
+- hr-33 | owner=Engineering | crit=low | env=prod
+- web-31 | owner=Engineering | crit=medium | env=dev
+- db-35 | owner=HR | crit=high | env=dev
+- finance-10 | owner=HR | crit=low | env=staging
+- compute-49 | owner=Executive Administration | crit=medium | env=staging
+- db-47 | owner=Security | crit=medium | env=prod
+- hr-27 | owner=IT | crit=high | env=dev
+- compute-24 | owner=Executive Administration | crit=low | env=staging
+- db-29 | owner=HR | crit=high | env=dev
+- eng-42 | owner=Security | crit=high | env=staging
+- web-32 | owner=Finance | crit=medium | env=staging
+- web-46 | owner=IT | crit=high | env=staging
+- web-16 | owner=IT | crit=low | env=staging
+- compute-21 | owner=HR | crit=low | env=prod
+- eng-21 | owner=Security | crit=low | env=dev
+- eng-29 | owner=Finance | crit=low | env=prod
+- db-6 | owner=Executive Administration | crit=medium | env=staging
+- finance-39 | owner=Executive Administration | crit=high | env=dev
+- hr-38 | owner=Finance | crit=high | env=staging
+- web-12 | owner=IT | crit=low | env=prod
+- eng-24 | owner=HR | crit=low | env=prod
+- web-7 | owner=Executive Administration | crit=low | env=prod
+- finance-15 | owner=Security | crit=high | env=staging
+- web-48 | owner=HR | crit=medium | env=staging
+- compute-15 | owner=Security | crit=medium | env=prod
+- web-9 | owner=Security | crit=high | env=staging
+- compute-7 | owner=Engineering | crit=high | env=dev
+- eng-6 | owner=Finance | crit=medium | env=dev
+- finance-4 | owner=HR | crit=high | env=prod
