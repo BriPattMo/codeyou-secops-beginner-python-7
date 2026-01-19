@@ -149,3 +149,362 @@ Internet-Exposed Assets:
 - compute-7 | owner=Engineering | crit=high | env=dev
 - eng-6 | owner=Finance | crit=medium | env=dev
 - finance-4 | owner=HR | crit=high | env=prod
+
+High Priority Review List
+--------------------------------------------
+- eng-24 | owner=Executive Administration | crit=low | exposed=True | env=prod
+- web-16 | owner=IT | crit=low | exposed=True | env=prod
+- finance-24 | owner=HR | crit=high | exposed=True | env=prod
+- web-26 | owner=Finance | crit=medium | exposed=True | env=prod
+- finance-35 | owner=IT | crit=high | exposed=True | env=prod
+- eng-22 | owner=HR | crit=high | exposed=True | env=prod
+- finance-40 | owner=Security | crit=high | exposed=False | env=prod
+- compute-13 | owner=IT | crit=high | exposed=False | env=prod
+- finance-22 | owner=HR | crit=high | exposed=False | env=prod
+- compute-34 | owner=Engineering | crit=high | exposed=False | env=prod
+- hr-25 | owner=Security | crit=medium | exposed=True | env=prod
+- eng-14 | owner=Executive Administration | crit=low | exposed=True | env=prod
+- web-47 | owner=IT | crit=high | exposed=False | env=prod
+- web-36 | owner=Finance | crit=high | exposed=True | env=prod
+- eng-48 | owner=Executive Administration | crit=high | exposed=True | env=prod
+- web-16 | owner=Finance | crit=low | exposed=True | env=prod
+- compute-32 | owner=Engineering | crit=high | exposed=True | env=prod
+- finance-47 | owner=IT | crit=high | exposed=False | env=prod
+- web-28 | owner=Executive Administration | crit=low | exposed=True | env=prod
+- hr-26 | owner=Finance | crit=medium | exposed=True | env=prod
+- eng-35 | owner=IT | crit=low | exposed=True | env=prod
+- hr-30 | owner=Finance | crit=low | exposed=True | env=prod
+- finance-29 | owner=Finance | crit=medium | exposed=True | env=prod
+- hr-19 | owner=Security | crit=high | exposed=False | env=prod
+- eng-30 | owner=Finance | crit=high | exposed=False | env=prod
+- hr-44 | owner=Engineering | crit=low | exposed=True | env=prod
+- db-46 | owner=Security | crit=medium | exposed=True | env=prod
+- db-50 | owner=Finance | crit=low | exposed=True | env=prod
+- db-41 | owner=Executive Administration | crit=high | exposed=True | env=prod
+- hr-26 | owner=Security | crit=high | exposed=True | env=prod
+- hr-4 | owner=Engineering | crit=low | exposed=True | env=prod
+- db-38 | owner=Security | crit=high | exposed=False | env=prod
+- compute-3 | owner=Executive Administration | crit=low | exposed=True | env=prod
+- web-9 | owner=Finance | crit=high | exposed=True | env=prod
+- hr-42 | owner=HR | crit=high | exposed=False | env=prod
+- db-4 | owner=Finance | crit=high | exposed=True | env=prod
+- finance-16 | owner=Finance | crit=medium | exposed=True | env=prod
+- hr-37 | owner=Finance | crit=high | exposed=True | env=prod
+- hr-40 | owner=Finance | crit=high | exposed=False | env=prod
+- db-30 | owner=Finance | crit=low | exposed=True | env=prod
+- hr-10 | owner=Security | crit=high | exposed=False | env=prod
+- web-9 | owner=Executive Administration | crit=low | exposed=True | env=prod
+- compute-3 | owner=Finance | crit=high | exposed=True | env=prod
+- compute-4 | owner=Finance | crit=medium | exposed=True | env=prod
+- compute-5 | owner=Finance | crit=medium | exposed=True | env=prod
+- db-10 | owner=HR | crit=medium | exposed=True | env=prod
+- eng-11 | owner=IT | crit=high | exposed=True | env=prod
+- compute-14 | owner=Engineering | crit=high | exposed=True | env=prod
+- hr-33 | owner=Engineering | crit=low | exposed=True | env=prod
+- db-47 | owner=Security | crit=medium | exposed=True | env=prod
+- compute-21 | owner=HR | crit=low | exposed=True | env=prod
+- eng-29 | owner=Finance | crit=low | exposed=True | env=prod
+- finance-13 | owner=Finance | crit=high | exposed=False | env=prod
+- web-42 | owner=Security | crit=high | exposed=False | env=prod
+- web-12 | owner=IT | crit=low | exposed=True | env=prod
+- eng-24 | owner=HR | crit=low | exposed=True | env=prod
+- hr-23 | owner=Engineering | crit=high | exposed=False | env=prod
+- web-7 | owner=Executive Administration | crit=low | exposed=True | env=prod
+- compute-15 | owner=Security | crit=medium | exposed=True | env=prod
+- finance-4 | owner=HR | crit=high | exposed=True | env=prod
+
+Top 3 Owner Teams by HIGH Risk
+--------------------------------------------
+- Executive Administration: 12
+- Engineering: 11
+- Finance: 9
+
+Assets Not Seen in 30+ Days
+--------------------------------------------
+- db-3 | owner=HR | last_seen=1/19/2025 | days_ago=364 | env=staging
+- hr-45 | owner=Security | last_seen=9/22/2025 | days_ago=118 | env=prod
+- hr-16 | owner=HR | last_seen=10/12/2025 | days_ago=98 | env=staging
+- compute-33 | owner=Engineering | last_seen=5/24/2025 | days_ago=239 | env=dev
+- web-15 | owner=Engineering | last_seen=3/11/2025 | days_ago=313 | env=staging
+- web-15 | owner=HR | last_seen=9/21/2025 | days_ago=119 | env=staging
+- compute-9 | owner=Engineering | last_seen=11/29/2025 | days_ago=50 | env=staging
+- compute-31 | owner=HR | last_seen=6/15/2025 | days_ago=217 | env=dev
+- eng-24 | owner=Executive Administration | last_seen=10/6/2025 | days_ago=104 | env=prod
+- eng-34 | owner=HR | last_seen=4/23/2025 | days_ago=270 | env=staging
+- eng-8 | owner=Finance | last_seen=7/16/2025 | days_ago=186 | env=dev
+- web-16 | owner=IT | last_seen=10/31/2025 | days_ago=79 | env=prod
+- web-10 | owner=Finance | last_seen=4/11/2025 | days_ago=282 | env=dev
+- web-10 | owner=Executive Administration | last_seen=7/31/2025 | days_ago=171 | env=dev
+- finance-24 | owner=HR | last_seen=11/13/2025 | days_ago=66 | env=prod
+- web-15 | owner=Engineering | last_seen=1/9/2025 | days_ago=374 | env=staging
+- web-26 | owner=Finance | last_seen=11/9/2025 | days_ago=70 | env=prod
+- web-33 | owner=IT | last_seen=1/17/2025 | days_ago=366 | env=staging
+- finance-24 | owner=Finance | last_seen=4/3/2025 | days_ago=290 | env=staging
+- finance-35 | owner=IT | last_seen=2/9/2025 | days_ago=343 | env=prod
+- compute-2 | owner=Executive Administration | last_seen=2/25/2025 | days_ago=327 | env=staging
+- web-31 | owner=Finance | last_seen=8/21/2025 | days_ago=150 | env=prod
+- web-12 | owner=IT | last_seen=8/4/2025 | days_ago=167 | env=prod
+- finance-14 | owner=Executive Administration | last_seen=4/16/2025 | days_ago=277 | env=dev
+- eng-28 | owner=Security | last_seen=5/8/2025 | days_ago=255 | env=staging
+- db-31 | owner=Engineering | last_seen=10/26/2025 | days_ago=84 | env=staging
+- web-38 | owner=Engineering | last_seen=5/5/2025 | days_ago=258 | env=staging
+- web-19 | owner=IT | last_seen=7/19/2025 | days_ago=183 | env=dev
+- compute-30 | owner=HR | last_seen=5/26/2025 | days_ago=237 | env=prod
+- db-16 | owner=Finance | last_seen=9/10/2025 | days_ago=130 | env=dev
+- web-48 | owner=IT | last_seen=3/24/2025 | days_ago=300 | env=staging
+- compute-50 | owner=Finance | last_seen=5/29/2025 | days_ago=234 | env=staging
+- finance-40 | owner=Security | last_seen=6/12/2025 | days_ago=220 | env=prod
+- db-17 | owner=Engineering | last_seen=8/26/2025 | days_ago=145 | env=staging
+- eng-10 | owner=HR | last_seen=3/13/2025 | days_ago=311 | env=staging
+- web-36 | owner=IT | last_seen=11/29/2025 | days_ago=50 | env=dev
+- compute-13 | owner=IT | last_seen=12/4/2025 | days_ago=45 | env=prod
+- finance-4 | owner=Finance | last_seen=10/9/2025 | days_ago=101 | env=staging
+- finance-29 | owner=Security | last_seen=3/31/2025 | days_ago=293 | env=dev
+- compute-43 | owner=Security | last_seen=1/11/2025 | days_ago=372 | env=staging
+- finance-22 | owner=HR | last_seen=4/8/2025 | days_ago=285 | env=prod
+- compute-28 | owner=IT | last_seen=2/28/2025 | days_ago=324 | env=staging
+- web-39 | owner=Security | last_seen=9/18/2025 | days_ago=122 | env=dev
+- finance-42 | owner=IT | last_seen=8/26/2025 | days_ago=145 | env=dev
+- finance-37 | owner=HR | last_seen=9/28/2025 | days_ago=112 | env=staging
+- finance-41 | owner=Executive Administration | last_seen=10/18/2025 | days_ago=92 | env=dev
+- compute-12 | owner=Executive Administration | last_seen=11/22/2025 | days_ago=57 | env=staging
+- eng-15 | owner=Engineering | last_seen=8/27/2025 | days_ago=144 | env=staging
+- compute-46 | owner=IT | last_seen=8/2/2025 | days_ago=169 | env=staging
+- eng-21 | owner=Executive Administration | last_seen=9/8/2025 | days_ago=132 | env=dev
+- finance-39 | owner=Engineering | last_seen=9/1/2025 | days_ago=139 | env=staging
+- hr-11 | owner=IT | last_seen=6/1/2025 | days_ago=231 | env=prod
+- finance-30 | owner=Finance | last_seen=11/27/2025 | days_ago=52 | env=staging
+- eng-29 | owner=Executive Administration | last_seen=6/24/2025 | days_ago=208 | env=prod
+- compute-14 | owner=HR | last_seen=11/6/2025 | days_ago=73 | env=dev
+- compute-15 | owner=IT | last_seen=1/4/2025 | days_ago=379 | env=staging
+- finance-38 | owner=Executive Administration | last_seen=7/2/2025 | days_ago=200 | env=prod
+- eng-32 | owner=Security | last_seen=7/8/2025 | days_ago=194 | env=staging
+- hr-39 | owner=Security | last_seen=9/24/2025 | days_ago=116 | env=dev
+- compute-34 | owner=Engineering | last_seen=7/26/2025 | days_ago=176 | env=prod
+- hr-33 | owner=Finance | last_seen=7/9/2025 | days_ago=193 | env=staging
+- web-47 | owner=IT | last_seen=3/20/2025 | days_ago=304 | env=staging
+- finance-18 | owner=Executive Administration | last_seen=7/3/2025 | days_ago=199 | env=staging
+- hr-25 | owner=Security | last_seen=12/8/2025 | days_ago=41 | env=prod
+- eng-14 | owner=Executive Administration | last_seen=12/6/2025 | days_ago=43 | env=prod
+- finance-46 | owner=Security | last_seen=7/15/2025 | days_ago=187 | env=prod
+- web-47 | owner=IT | last_seen=9/4/2025 | days_ago=136 | env=prod
+- db-12 | owner=Security | last_seen=8/15/2025 | days_ago=156 | env=staging
+- web-36 | owner=Finance | last_seen=1/16/2025 | days_ago=367 | env=prod
+- hr-21 | owner=Security | last_seen=3/14/2025 | days_ago=310 | env=prod
+- web-35 | owner=Executive Administration | last_seen=8/23/2025 | days_ago=148 | env=dev
+- eng-48 | owner=Executive Administration | last_seen=7/20/2025 | days_ago=182 | env=prod
+- eng-25 | owner=Engineering | last_seen=3/11/2025 | days_ago=313 | env=prod
+- eng-17 | owner=Finance | last_seen=8/13/2025 | days_ago=158 | env=staging
+- web-16 | owner=Finance | last_seen=3/13/2025 | days_ago=311 | env=prod
+- compute-47 | owner=Executive Administration | last_seen=9/17/2025 | days_ago=123 | env=dev
+- hr-4 | owner=IT | last_seen=10/14/2025 | days_ago=96 | env=dev
+- compute-32 | owner=Engineering | last_seen=7/4/2025 | days_ago=198 | env=prod
+- eng-7 | owner=Engineering | last_seen=12/15/2025 | days_ago=34 | env=staging
+- finance-47 | owner=IT | last_seen=1/27/2025 | days_ago=356 | env=prod
+- hr-1 | owner=Finance | last_seen=3/13/2025 | days_ago=311 | env=prod
+- web-28 | owner=Executive Administration | last_seen=5/22/2025 | days_ago=241 | env=prod
+- finance-14 | owner=IT | last_seen=5/27/2025 | days_ago=236 | env=dev
+- finance-25 | owner=IT | last_seen=5/23/2025 | days_ago=240 | env=dev
+- compute-36 | owner=Executive Administration | last_seen=3/19/2025 | days_ago=305 | env=staging
+- hr-11 | owner=HR | last_seen=4/21/2025 | days_ago=272 | env=prod
+- hr-46 | owner=Engineering | last_seen=7/20/2025 | days_ago=182 | env=dev
+- web-26 | owner=Engineering | last_seen=8/25/2025 | days_ago=146 | env=dev
+- hr-26 | owner=Finance | last_seen=9/26/2025 | days_ago=114 | env=prod
+- db-13 | owner=Security | last_seen=11/15/2025 | days_ago=64 | env=staging
+- hr-18 | owner=HR | last_seen=11/14/2025 | days_ago=65 | env=prod
+- web-35 | owner=IT | last_seen=3/8/2025 | days_ago=316 | env=dev
+- eng-35 | owner=IT | last_seen=8/31/2025 | days_ago=140 | env=prod
+- web-2 | owner=Security | last_seen=3/31/2025 | days_ago=293 | env=staging
+- hr-12 | owner=HR | last_seen=4/17/2025 | days_ago=276 | env=staging
+- finance-48 | owner=IT | last_seen=9/1/2025 | days_ago=139 | env=staging
+- eng-15 | owner=IT | last_seen=4/23/2025 | days_ago=270 | env=staging
+- db-2 | owner=IT | last_seen=2/2/2025 | days_ago=350 | env=staging
+- eng-34 | owner=IT | last_seen=4/4/2025 | days_ago=289 | env=dev
+- db-34 | owner=IT | last_seen=3/5/2025 | days_ago=319 | env=prod
+- hr-30 | owner=Finance | last_seen=2/26/2025 | days_ago=326 | env=prod
+- hr-34 | owner=Finance | last_seen=6/29/2025 | days_ago=203 | env=staging
+- finance-3 | owner=IT | last_seen=5/9/2025 | days_ago=254 | env=staging
+- compute-24 | owner=Security | last_seen=6/30/2025 | days_ago=202 | env=staging
+- eng-28 | owner=IT | last_seen=1/25/2025 | days_ago=358 | env=prod
+- web-16 | owner=Finance | last_seen=1/26/2025 | days_ago=357 | env=prod
+- web-28 | owner=Executive Administration | last_seen=2/15/2025 | days_ago=337 | env=dev
+- db-23 | owner=Executive Administration | last_seen=7/26/2025 | days_ago=176 | env=dev
+- hr-34 | owner=Engineering | last_seen=8/13/2025 | days_ago=158 | env=dev
+- finance-29 | owner=Finance | last_seen=7/29/2025 | days_ago=173 | env=prod
+- hr-19 | owner=Security | last_seen=10/14/2025 | days_ago=96 | env=prod
+- eng-7 | owner=Finance | last_seen=3/8/2025 | days_ago=316 | env=dev
+- eng-30 | owner=Finance | last_seen=1/12/2025 | days_ago=371 | env=prod
+- compute-43 | owner=Finance | last_seen=5/18/2025 | days_ago=245 | env=staging
+- hr-44 | owner=Engineering | last_seen=3/1/2025 | days_ago=323 | env=prod
+- web-1 | owner=Executive Administration | last_seen=10/7/2025 | days_ago=103 | env=staging
+- finance-37 | owner=Executive Administration | last_seen=12/12/2025 | days_ago=37 | env=staging
+- db-41 | owner=Finance | last_seen=5/10/2025 | days_ago=253 | env=staging
+- eng-48 | owner=Security | last_seen=8/10/2025 | days_ago=161 | env=prod
+- db-46 | owner=Security | last_seen=4/29/2025 | days_ago=264 | env=prod
+- hr-14 | owner=Security | last_seen=5/15/2025 | days_ago=248 | env=prod
+- eng-50 | owner=Executive Administration | last_seen=12/1/2025 | days_ago=48 | env=staging
+- finance-1 | owner=Engineering | last_seen=11/21/2025 | days_ago=58 | env=dev
+- web-25 | owner=Executive Administration | last_seen=3/1/2025 | days_ago=323 | env=dev
+- web-23 | owner=Executive Administration | last_seen=10/20/2025 | days_ago=90 | env=prod
+- db-50 | owner=Finance | last_seen=3/8/2025 | days_ago=316 | env=prod
+- db-41 | owner=Executive Administration | last_seen=9/26/2025 | days_ago=114 | env=prod
+- web-50 | owner=Engineering | last_seen=4/27/2025 | days_ago=266 | env=dev
+- web-20 | owner=Executive Administration | last_seen=9/4/2025 | days_ago=136 | env=staging
+- db-6 | owner=HR | last_seen=7/27/2025 | days_ago=175 | env=prod
+- compute-4 | owner=Executive Administration | last_seen=6/17/2025 | days_ago=215 | env=staging
+- hr-49 | owner=HR | last_seen=2/17/2025 | days_ago=335 | env=staging
+- compute-15 | owner=Executive Administration | last_seen=10/3/2025 | days_ago=107 | env=dev
+- compute-50 | owner=Security | last_seen=3/10/2025 | days_ago=314 | env=dev
+- hr-26 | owner=Security | last_seen=11/4/2025 | days_ago=75 | env=prod
+- hr-4 | owner=Engineering | last_seen=1/12/2025 | days_ago=371 | env=prod
+- web-49 | owner=Finance | last_seen=8/23/2025 | days_ago=148 | env=staging
+- eng-46 | owner=Finance | last_seen=8/23/2025 | days_ago=148 | env=dev
+- finance-14 | owner=IT | last_seen=11/20/2025 | days_ago=59 | env=staging
+- finance-46 | owner=Executive Administration | last_seen=6/23/2025 | days_ago=209 | env=staging
+- eng-13 | owner=Engineering | last_seen=9/14/2025 | days_ago=126 | env=dev
+- hr-16 | owner=Executive Administration | last_seen=4/13/2025 | days_ago=280 | env=dev
+- db-38 | owner=Security | last_seen=1/10/2025 | days_ago=373 | env=prod
+- web-5 | owner=HR | last_seen=10/22/2025 | days_ago=88 | env=staging
+- compute-3 | owner=Executive Administration | last_seen=10/2/2025 | days_ago=108 | env=prod
+- hr-39 | owner=Executive Administration | last_seen=11/7/2025 | days_ago=72 | env=dev
+- finance-41 | owner=IT | last_seen=5/3/2025 | days_ago=260 | env=dev
+- compute-2 | owner=IT | last_seen=4/3/2025 | days_ago=290 | env=staging
+- web-12 | owner=Executive Administration | last_seen=9/20/2025 | days_ago=120 | env=staging
+- eng-30 | owner=HR | last_seen=4/28/2025 | days_ago=265 | env=staging
+- eng-36 | owner=IT | last_seen=2/2/2025 | days_ago=350 | env=staging
+- web-9 | owner=Finance | last_seen=3/25/2025 | days_ago=299 | env=prod
+- eng-1 | owner=Executive Administration | last_seen=11/6/2025 | days_ago=73 | env=dev
+- db-16 | owner=Engineering | last_seen=11/29/2025 | days_ago=50 | env=prod
+- finance-20 | owner=Engineering | last_seen=1/8/2025 | days_ago=375 | env=dev
+- finance-4 | owner=HR | last_seen=2/4/2025 | days_ago=348 | env=dev
+- compute-47 | owner=IT | last_seen=10/22/2025 | days_ago=88 | env=prod
+- eng-30 | owner=Security | last_seen=9/16/2025 | days_ago=124 | env=dev
+- hr-24 | owner=HR | last_seen=4/19/2025 | days_ago=274 | env=prod
+- eng-6 | owner=Engineering | last_seen=5/16/2025 | days_ago=247 | env=prod
+- hr-42 | owner=HR | last_seen=5/16/2025 | days_ago=247 | env=prod
+- hr-17 | owner=Executive Administration | last_seen=12/13/2025 | days_ago=36 | env=dev
+- eng-31 | owner=Engineering | last_seen=6/10/2025 | days_ago=222 | env=staging
+- compute-31 | owner=Executive Administration | last_seen=12/5/2025 | days_ago=44 | env=dev
+- compute-26 | owner=Security | last_seen=9/12/2025 | days_ago=128 | env=dev
+- compute-10 | owner=HR | last_seen=2/25/2025 | days_ago=327 | env=staging
+- hr-11 | owner=HR | last_seen=8/10/2025 | days_ago=161 | env=staging
+- db-12 | owner=IT | last_seen=7/15/2025 | days_ago=187 | env=staging
+- db-24 | owner=Engineering | last_seen=10/7/2025 | days_ago=103 | env=prod
+- web-50 | owner=IT | last_seen=4/22/2025 | days_ago=271 | env=staging
+- db-37 | owner=Security | last_seen=1/16/2025 | days_ago=367 | env=dev
+- db-4 | owner=Engineering | last_seen=12/19/2025 | days_ago=30 | env=dev
+- finance-40 | owner=Finance | last_seen=11/11/2025 | days_ago=68 | env=staging
+- db-4 | owner=Finance | last_seen=1/20/2025 | days_ago=363 | env=prod
+- db-10 | owner=Executive Administration | last_seen=11/25/2025 | days_ago=54 | env=staging
+- compute-48 | owner=HR | last_seen=3/7/2025 | days_ago=317 | env=staging
+- db-7 | owner=Executive Administration | last_seen=12/18/2025 | days_ago=31 | env=dev
+- hr-25 | owner=Security | last_seen=12/6/2025 | days_ago=43 | env=staging
+- eng-28 | owner=IT | last_seen=6/1/2025 | days_ago=231 | env=dev
+- finance-16 | owner=Finance | last_seen=9/16/2025 | days_ago=124 | env=prod
+- hr-37 | owner=Finance | last_seen=10/10/2025 | days_ago=100 | env=prod
+- finance-30 | owner=Security | last_seen=2/24/2025 | days_ago=328 | env=prod
+- db-11 | owner=Executive Administration | last_seen=6/15/2025 | days_ago=217 | env=dev
+- hr-40 | owner=Finance | last_seen=6/9/2025 | days_ago=223 | env=prod
+- finance-5 | owner=Engineering | last_seen=6/8/2025 | days_ago=224 | env=dev
+- compute-22 | owner=Engineering | last_seen=9/22/2025 | days_ago=118 | env=dev
+- finance-49 | owner=Executive Administration | last_seen=6/14/2025 | days_ago=218 | env=staging
+- finance-30 | owner=IT | last_seen=11/23/2025 | days_ago=56 | env=staging
+- db-34 | owner=Executive Administration | last_seen=4/1/2025 | days_ago=292 | env=staging
+- hr-33 | owner=IT | last_seen=5/11/2025 | days_ago=252 | env=dev
+- web-28 | owner=Executive Administration | last_seen=8/31/2025 | days_ago=140 | env=dev
+- eng-31 | owner=Finance | last_seen=3/12/2025 | days_ago=312 | env=prod
+- hr-44 | owner=HR | last_seen=5/21/2025 | days_ago=242 | env=staging
+- web-22 | owner=Finance | last_seen=1/12/2025 | days_ago=371 | env=prod
+- db-30 | owner=Finance | last_seen=11/12/2025 | days_ago=67 | env=prod
+- compute-28 | owner=Finance | last_seen=1/12/2025 | days_ago=371 | env=staging
+- finance-28 | owner=Engineering | last_seen=11/23/2025 | days_ago=56 | env=staging
+- compute-44 | owner=Finance | last_seen=10/23/2025 | days_ago=87 | env=dev
+- hr-10 | owner=Security | last_seen=11/5/2025 | days_ago=74 | env=prod
+- eng-5 | owner=Finance | last_seen=7/5/2025 | days_ago=197 | env=prod
+- finance-21 | owner=HR | last_seen=9/27/2025 | days_ago=113 | env=prod
+- finance-1 | owner=Engineering | last_seen=6/5/2025 | days_ago=227 | env=staging
+- web-9 | owner=Executive Administration | last_seen=3/27/2025 | days_ago=297 | env=prod
+- web-20 | owner=HR | last_seen=3/26/2025 | days_ago=298 | env=staging
+- finance-29 | owner=Engineering | last_seen=7/26/2025 | days_ago=176 | env=staging
+- compute-3 | owner=Finance | last_seen=3/17/2025 | days_ago=307 | env=prod
+- finance-18 | owner=Security | last_seen=5/6/2025 | days_ago=257 | env=staging
+- db-23 | owner=Executive Administration | last_seen=4/17/2025 | days_ago=276 | env=dev
+- web-23 | owner=Security | last_seen=9/6/2025 | days_ago=134 | env=prod
+- compute-45 | owner=Finance | last_seen=7/12/2025 | days_ago=190 | env=staging
+- finance-20 | owner=Finance | last_seen=5/23/2025 | days_ago=240 | env=dev
+- compute-18 | owner=Engineering | last_seen=5/15/2025 | days_ago=248 | env=prod
+- web-4 | owner=HR | last_seen=8/8/2025 | days_ago=163 | env=prod
+- compute-4 | owner=Finance | last_seen=5/17/2025 | days_ago=246 | env=prod
+- compute-5 | owner=Finance | last_seen=12/7/2025 | days_ago=42 | env=prod
+- hr-22 | owner=Executive Administration | last_seen=11/7/2025 | days_ago=72 | env=staging
+- db-10 | owner=HR | last_seen=4/29/2025 | days_ago=264 | env=prod
+- db-39 | owner=IT | last_seen=11/4/2025 | days_ago=75 | env=staging
+- eng-11 | owner=IT | last_seen=2/11/2025 | days_ago=341 | env=prod
+- compute-36 | owner=Engineering | last_seen=1/18/2025 | days_ago=365 | env=staging
+- db-43 | owner=HR | last_seen=8/14/2025 | days_ago=157 | env=dev
+- eng-6 | owner=Engineering | last_seen=8/2/2025 | days_ago=169 | env=dev
+- finance-14 | owner=HR | last_seen=5/22/2025 | days_ago=241 | env=staging
+- finance-6 | owner=IT | last_seen=6/18/2025 | days_ago=214 | env=dev
+- eng-22 | owner=Engineering | last_seen=3/19/2025 | days_ago=305 | env=dev
+- eng-8 | owner=Engineering | last_seen=9/24/2025 | days_ago=116 | env=staging
+- compute-14 | owner=Engineering | last_seen=4/8/2025 | days_ago=285 | env=prod
+- hr-33 | owner=Engineering | last_seen=2/2/2025 | days_ago=350 | env=prod
+- db-15 | owner=Finance | last_seen=10/31/2025 | days_ago=79 | env=staging
+- web-31 | owner=Engineering | last_seen=5/20/2025 | days_ago=243 | env=dev
+- db-35 | owner=HR | last_seen=9/9/2025 | days_ago=131 | env=dev
+- finance-10 | owner=HR | last_seen=2/7/2025 | days_ago=345 | env=staging
+- finance-20 | owner=Engineering | last_seen=9/8/2025 | days_ago=132 | env=prod
+- compute-49 | owner=Executive Administration | last_seen=5/21/2025 | days_ago=242 | env=staging
+- finance-45 | owner=HR | last_seen=4/7/2025 | days_ago=286 | env=dev
+- eng-8 | owner=Security | last_seen=7/28/2025 | days_ago=174 | env=dev
+- eng-49 | owner=Finance | last_seen=3/19/2025 | days_ago=305 | env=dev
+- db-47 | owner=Security | last_seen=9/10/2025 | days_ago=130 | env=prod
+- finance-48 | owner=Engineering | last_seen=2/12/2025 | days_ago=340 | env=prod
+- web-42 | owner=HR | last_seen=4/3/2025 | days_ago=290 | env=dev
+- eng-19 | owner=Executive Administration | last_seen=12/3/2025 | days_ago=46 | env=dev
+- hr-27 | owner=IT | last_seen=5/1/2025 | days_ago=262 | env=dev
+- db-29 | owner=Security | last_seen=3/23/2025 | days_ago=301 | env=staging
+- hr-28 | owner=Finance | last_seen=2/18/2025 | days_ago=334 | env=prod
+- compute-24 | owner=Executive Administration | last_seen=5/5/2025 | days_ago=258 | env=staging
+- db-29 | owner=HR | last_seen=10/6/2025 | days_ago=104 | env=dev
+- web-33 | owner=IT | last_seen=4/11/2025 | days_ago=282 | env=dev
+- finance-37 | owner=Engineering | last_seen=1/6/2025 | days_ago=377 | env=dev
+- db-4 | owner=Security | last_seen=12/15/2025 | days_ago=34 | env=dev
+- eng-42 | owner=Security | last_seen=5/16/2025 | days_ago=247 | env=staging
+- compute-29 | owner=IT | last_seen=2/27/2025 | days_ago=325 | env=dev
+- web-32 | owner=Finance | last_seen=10/17/2025 | days_ago=93 | env=staging
+- web-46 | owner=IT | last_seen=5/28/2025 | days_ago=235 | env=staging
+- hr-26 | owner=Finance | last_seen=8/26/2025 | days_ago=145 | env=staging
+- web-16 | owner=IT | last_seen=4/2/2025 | days_ago=291 | env=staging
+- hr-27 | owner=Finance | last_seen=2/26/2025 | days_ago=326 | env=staging
+- compute-21 | owner=HR | last_seen=4/19/2025 | days_ago=274 | env=prod
+- eng-21 | owner=Security | last_seen=2/7/2025 | days_ago=345 | env=dev
+- web-48 | owner=IT | last_seen=5/11/2025 | days_ago=252 | env=prod
+- hr-49 | owner=HR | last_seen=9/6/2025 | days_ago=134 | env=dev
+- eng-29 | owner=Finance | last_seen=3/13/2025 | days_ago=311 | env=prod
+- db-6 | owner=Executive Administration | last_seen=5/28/2025 | days_ago=235 | env=staging
+- finance-13 | owner=Finance | last_seen=11/24/2025 | days_ago=55 | env=prod
+- db-30 | owner=Security | last_seen=7/24/2025 | days_ago=178 | env=staging
+- finance-39 | owner=Executive Administration | last_seen=8/17/2025 | days_ago=154 | env=dev
+- hr-38 | owner=Finance | last_seen=12/18/2025 | days_ago=31 | env=staging
+- web-42 | owner=Security | last_seen=10/25/2025 | days_ago=85 | env=prod
+- compute-24 | owner=IT | last_seen=10/30/2025 | days_ago=80 | env=dev
+- web-12 | owner=IT | last_seen=12/18/2025 | days_ago=31 | env=prod
+- db-42 | owner=Executive Administration | last_seen=10/4/2025 | days_ago=106 | env=dev
+- eng-24 | owner=HR | last_seen=3/7/2025 | days_ago=317 | env=prod
+- hr-23 | owner=Engineering | last_seen=11/10/2025 | days_ago=69 | env=prod
+- web-7 | owner=Executive Administration | last_seen=6/13/2025 | days_ago=219 | env=prod
+- db-19 | owner=Engineering | last_seen=8/3/2025 | days_ago=168 | env=prod
+- hr-5 | owner=Security | last_seen=11/20/2025 | days_ago=59 | env=dev
+- db-46 | owner=Executive Administration | last_seen=12/5/2025 | days_ago=44 | env=dev
+- finance-15 | owner=Security | last_seen=7/31/2025 | days_ago=171 | env=staging
+- web-48 | owner=HR | last_seen=9/2/2025 | days_ago=138 | env=staging
+- hr-48 | owner=Engineering | last_seen=12/12/2025 | days_ago=37 | env=prod
+- compute-16 | owner=IT | last_seen=5/6/2025 | days_ago=257 | env=dev
+- compute-15 | owner=Security | last_seen=8/11/2025 | days_ago=160 | env=prod
+- hr-4 | owner=Finance | last_seen=6/29/2025 | days_ago=203 | env=staging
+- db-23 | owner=IT | last_seen=8/7/2025 | days_ago=164 | env=staging
+- compute-7 | owner=Engineering | last_seen=12/4/2025 | days_ago=45 | env=dev
+- finance-40 | owner=Executive Administration | last_seen=7/19/2025 | days_ago=183 | env=prod
+- eng-6 | owner=Finance | last_seen=11/22/2025 | days_ago=57 | env=dev
+- finance-4 | owner=HR | last_seen=11/22/2025 | days_ago=57 | env=prod
